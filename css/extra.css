@@ -1,0 +1,65 @@
+.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.submenu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.submenu li:last-child {
+    margin: 0;
+}
+
+.submenu .btn {
+    margin-bottom: 0;
+}
+
+.submenu .active .btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.entry-title {
+    margin: 0 0 20px 0;
+    max-width: none;
+    text-align: center;
+}
+
+.albums {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+/* #tracks li, .gobbles li { */
+li {
+    margin: 10px 0;
+}
+
+#site-nav ul {
+    margin-bottom: 25px;
+}
+
+#site-nav li {
+    margin: 0;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.photo {
+    margin-bottom: 25px;
+}
+
+/*.haudio .albumart {*/
+.entry-feature-image {
+    margin: 0 0 12px 0;
+}
+
+label {
+    margin-top: 10px;
+}
