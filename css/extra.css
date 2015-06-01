@@ -40,7 +40,7 @@ li {
 }
 
 #site-nav ul {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 #site-nav li {
@@ -57,7 +57,7 @@ li {
 
 /*.haudio .albumart {*/
 .entry-feature-image {
-    margin: 0 0 12px 0;
+    margin-bottom: 12px;
 }
 
 label {
