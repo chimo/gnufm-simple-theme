@@ -14,6 +14,8 @@
   <section>
 {include file='submenu.tpl'}
 
+<div class="entry-content">
+
 <div about="[_:seq1]" typeof="rdf:Seq" rev="rss:items">
     <h3 typeof="rss:channel" property="rss:title" rel="rss:link" resource="#latest_plays" id="latest_plays" content="{$me->name|escape:'html':'UTF-8'}'s Latest Plays">{t plays=$scrobbles|@count}Latest %1 Plays:{/t}</h3>
 </div>
@@ -29,4 +31,7 @@
     </li>
 {/section}
 </ol>
+
+</div>
+
 {include file='footer.tpl'}

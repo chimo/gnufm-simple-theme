@@ -15,6 +15,8 @@
 
 {include file='submenu.tpl'}
 
+<div class="entry-content">
+
 {if $nowplaying|@count > 0}
 <h3>{t}Now Playing:{/t}</h3>
   {section name=i loop=$nowplaying}
@@ -55,5 +57,7 @@
         {/foreach}
     </ul>
 {/if}
+
+</div>
 
 {include file='footer.tpl'}

@@ -15,6 +15,7 @@
 
 {include file='submenu.tpl'}
 
+<div class="entry-content">
 
 <h3>Total tracks: {$totaltracks}</h3>
 
