@@ -28,22 +28,9 @@
     {/section}
 </head>
 
-<body>
-  <!-- <h1 id="title"><a href="{$base_url}">{$site_name}</a></h1> -->
+<body id="page">
   {include file='menu.tpl'}
 
   <div id="main" role="main">
     <article class="hentry">
-      <!-- <div class="entry-wrapper">
-        <header>
-          {if isset($headerfile)}
-            {include file="$headerfile"}
-          {/if}
-
-          {if isset($pageheading)}
-            <h1 id="page-title" class="asset-name">{$pageheading}</h1>
-          {/if}
-        </header>
-
-      <section> -->
 
