@@ -12,15 +12,6 @@
   </header>
 
   <section>
-
-<div typeof="foaf:Agent" class="user vcard">
-    <h1 class="fn entry-title" property="foaf:name">{$me->fullname|escape:'html':'UTF-8'}</h1>
-
-    <div class="avatar">
-        <img src="{$me->getAvatar()|escape:'html':'UTF-8'}" alt="avatar" class="photo" />
-    </div>
-</div>
-
 {include file='submenu.tpl'}
 
 <div about="[_:seq1]" typeof="rdf:Seq" rev="rss:items">
