@@ -14,14 +14,12 @@
     <link rel="stylesheet" href="//chromic.org/assets/css/main.css" />
     <link rel="stylesheet" href="{$base_url}/themes/{$default_theme}/css/extra.css" />
 
+    <script src="//chromic.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+<script src="{$base_url}/js/jquery.min.js"></script>
+
     <script>
       var base_url="{$base_url}";
     </script>
-
-    <script src="{$base_url}/js/jquery.min.js"></script>
-    <script src="{$base_url}/js/jquery-ui.custom.min.js"></script>
-    <script src="{$base_url}/js/jquery.placeholdr.js"></script>
-    <script src="{$base_url}/js/player.js"></script>
 
     {section name=i loop=$extra_head_links}
       <link rel="{$extra_head_links[i].rel|escape:'html':'UTF-8'}" href="{$extra_head_links[i].href|escape:'html':'UTF-8'}" type="{$extra_head_links[i].type|escape:'html':'UTF-8'}" title="{$extra_head_links[i].title|escape:'html':'UTF-8'}"  />
